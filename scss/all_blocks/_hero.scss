@@ -1,0 +1,95 @@
+.hero {
+    margin-top: 80px;
+    background-image: url("./../../images/bg_hero.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 358px 100px;
+    padding-bottom: 197px;
+    
+    
+    @media only screen and (min-width: 600px) {
+        margin-top: 122px;
+        padding-bottom: 256px;
+    }    
+    
+    
+    &__container {
+    }
+    
+    &__wrapper {
+        text-align: center;
+        @media only screen and (min-width: 900px) {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        @media only screen and (min-width: 900px) {
+            margin-top: 133px;
+            padding-bottom: 256px;
+            background-image: url("./../../images/bg_hero.png");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 358px 100px;
+            padding-bottom: 250px;
+            
+        }   
+        
+    }
+    
+    &__heiding {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        
+        margin-bottom: 18px;
+        
+        @media only screen and (min-width: 600px) {
+            margin-bottom: 30px;
+            font-size: 64px;
+            line-height: 56px;
+            text-align: center;
+            color: #FFFFFF;
+        }  
+        
+        @media only screen and (min-width: 900px) {
+            max-width: 600px;
+            height: 200px;
+            font-size: 100px;
+            line-height: 100px;
+            text-align: left;
+        }
+    }
+    
+    &__heiding-color {
+        color: #f67e7e;
+    }
+    
+    &__text {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        
+        @media only screen and (min-width: 900px) {
+            max-width: 445px;
+            height: 112px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: left;
+            padding-top: 23px;
+        }
+        
+    }
+    
+}
+.container {
+}
